@@ -7,7 +7,6 @@
 	background-image:url(img/bg.png);
 	margin-top:20px;
 	margin-bottom:20px;
-	font-family: 'Ubuntu', sans-serif;
 	font-size:18px;
 	width: 100%;
 }
@@ -29,18 +28,19 @@ h1
 {
 	color: red;
 	text-align:center;
-	font-family: 'Caveat', cursive;
+	font-family: 'Marck Script', cursive;
 	font-size:50px;
+	text-shadow: 3px 1px 3px rgba(230, 25, 25, 0.72);
 	margin-bottom: 10px;
+	letter-spacing: 5px;
 }
 
 h2
 {
-	color: E61919;
+	color: #E61919;
 	text-align:center;
-	font-family: 'Caveat', cursive;
-	font-size:45px;
-	letter-spacing: 3px;
+	font-family: 'Marck Script', cursive;
+	text-shadow: 3px 1px 3px rgba(230, 25, 25, 0.72);
 	animation-name:a3;
 	animation-duration:1s;
 	animation-iteration-count:infinite;
@@ -76,8 +76,10 @@ h2
 }
 @keyframes a3
 {
-	0%{ font-size: 40px; }
-	100% { font-size: 60px;); }
+	0%{ font-size: 40px; 
+		letter-spacing: 1px;}
+	100% { font-size: 60px;
+		letter-spacing: 4px;}
 }
 /****************************************************************************/
 .content{
